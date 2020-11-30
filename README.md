@@ -5,7 +5,7 @@
 1. Use the Makefile to build your own Docker image.
 2. Push the Docker image to a container registry.
 
-## Deply the network-scheduler
+## Deploy the network-scheduler
 
 1. Deploy the network-scheduler policy configuration:
   kubectl create -f deployments/scheduler-policy-config.yaml
