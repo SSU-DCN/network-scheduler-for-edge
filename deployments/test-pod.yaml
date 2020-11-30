@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: test-pod
+  labels:
+    bandwidth: "10"
+spec:
+  schedulerName: network-scheduler
+  containers:
+  - name: nginx
+    image: nginx
+    ports:
+    - containerPort: 80
